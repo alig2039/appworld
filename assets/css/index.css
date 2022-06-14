@@ -9,9 +9,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
+    padding: 5px 75px;
 }
 
-.logo {
-    cursor: pointer;
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li:hover {
+    border-bottom: 2px solid white;
+    color: black;
+    margin: 0 10px;
+    transition: 0.5s;
 }
