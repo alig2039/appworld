@@ -4,6 +4,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/*-- Styling for Navbar starts here --*/
+
 .navbar {
     background: black;
     display: flex;
@@ -11,8 +13,6 @@
     align-items: center;
     padding: 5px 75px;
 }
-
-
 
 .navbar ul li {
     list-style: none;
@@ -31,3 +31,29 @@
     margin: 0 10px;
     transition: 0.5s;
 }
+
+/*-- Styling for Navbar ends here --*/
+
+/*-- Styling for trending heading starts here --*/
+
+
+.trendapp {
+    border-top: 2px solid black;
+    color: white;
+    margin-top: 20px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 0 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trap {
+    background: black;
+    padding: 5px 30px;
+    border-top: 2px solid black;
+}
+
+
+/*-- Styling for trending heading ends here --*/
