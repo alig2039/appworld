@@ -92,4 +92,42 @@ p {
     padding-top: 40px;
 }
 
-/*-- Styling for landing page trending apps section starts here --*/
+/*-- Styling for landing page trending apps section ends here --*/
+
+/*-- Styling for review section heading starts here --*/
+
+.review {
+    border-top: 2px solid black;
+    color: white;
+    margin-top: 20px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 0 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view {
+    background: black;
+    padding: 5px 30px;
+    border-top: 2px solid black;
+}
+
+
+/*-- Styling for review section heading ends here --*/
+
+/*-- Styling for landing page reviews section starts here --*/
+
+.container2 {
+    display: flex;
+    padding: 0 75px;
+    margin-top: 20px;
+}
+
+.app4 {
+    padding: 0 20px;
+}
+
+
+/*-- Styling for landing page reviews apps section ends here --*/
