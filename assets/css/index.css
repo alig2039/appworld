@@ -60,30 +60,19 @@
 
 /*-- Styling for landing page trending apps section starts here --*/
 
-
-.main {
-    width: 60%;
-    float: right;
-    margin-right: 75px;
-    margin-top: 20px;
-    padding-left: 60px;
-    border-left: 1px solid black;
+.container1 {
+    display: flex;
+    padding: 0 75px;
 }
 
-.side {
-    width: 20%;
-    float: left;
-    margin-left: 75px;
-    margin-top: 20px;
-    padding-left: 60px;
-    border-left: 1px solid black;
+.container1_1 {
+    width: 30%;
+    padding: 0 20px;
 }
 
-.app3 {
-    margin-top: 20px;
-    border-top: 1px solid black;
-    padding-top: 20px;
+.container1_2 {
+    width: 70%;
+    padding: 0 20px;
 }
 
-
-/*-- Styling for landing page trending apps section ends here --*/
+/*-- Styling for landing page trending apps section starts here --*/
