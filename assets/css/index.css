@@ -4,24 +4,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
-/*-- Styling for landing page reviews section starts here --*/
-
-
-.container2 {
-    display: flex;
-    margin-top: 20px;
-    justify-content: space-between;
-}
-
-
-/*-- Styling for landing page reviews apps section ends here --*/
-
-
-
-
-/*-- Styling for website footer starts here --*/
-
 /*-- Media Queries start here --*/
 
 @media screen and (max-width: 1400px){
@@ -190,6 +172,16 @@
 
     /*-- Styling for review section heading ends here --*/
 
+    /*-- Styling for landing page reviews section starts here --*/
+
+        .container2 {
+            display: flex;
+            margin-top: 20px;
+            justify-content: space-between;
+        }
+
+    /*-- Styling for landing page reviews apps section ends here --*/
+
     /*-- Styling for website footer starts here --*/
 
         .container3 {
@@ -275,7 +267,8 @@
         .trendapp {
             border-top: 2px solid black;
             color: white;
-            margin-top: 20px;
+            margin: 20px 75px;
+            padding: 0 75px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -289,12 +282,21 @@
 
     /*-- Styling for trending heading ends here --*/
 
+    /*-- Styling for trending apps section starts here --*/
+
+        .container1 {
+            padding: 0 75px;
+        }
+
+    /*-- Styling for trending apps section starts here --*/
+
     /*-- Styling for review section heading starts here --*/
 
         .review {
             border-top: 2px solid black;
             color: white;
-            margin-top: 20px;
+            margin: 20px 75px;
+            padding: 0 75px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -307,6 +309,20 @@
         }
 
     /*-- Styling for review section heading ends here --*/
+
+    /*-- Styling for landing page reviews section starts here --*/
+
+        .container2 {
+            display: flex;
+            margin: 20px 0;
+            justify-content: space-between;
+            padding: 0 75px;
+        }
+        .app4 {
+            padding: 0 20px;
+        }
+
+    /*-- Styling for landing page reviews section ends here --*/
 
     /*-- Styling for website footer starts here --*/
 
