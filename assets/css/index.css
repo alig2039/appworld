@@ -1,41 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*-- Styling for landing page reviews section starts here --*/
+
+
+.container2 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+
+/*-- Styling for landing page reviews apps section ends here --*/
+
+
+
+
 /*-- Styling for website footer starts here --*/
 
-.container3 {
-    background: black;
-    display: block;
-    color: white;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+/*-- Media Queries start here --*/
+
+@media screen and (max-width: 1400px){
+    h1 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 12px;
+    }
 }
 
-.app5 {
-    display: block;
-    justify-content: center;
-    padding: 20px 50px;
+@media screen and (max-width: 1200px){
+    h1 {
+        font-size: 13px;
+    }
+    h4 {
+        font-size: 9px;
+    }
+    p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    h1 {
+        font-size: 13px;
+    }
+    h4 {
+        font-size: 9px;
+    }
+    p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    h1 {
+        font-size: 13px;
+    }
+    h4 {
+        font-size: 9px;
+    }
+    p {
+        font-size: 8px;
+    }
 
 }
 
-.app5 p {
-    font-size: 15px;
+@media screen and (max-width: 576px){
+    h1 {
+        font-size: 13px;
+    }
+    h4 {
+        font-size: 9px;
+    }
+    p {
+        font-size: 8px;
+    }
+    html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    /*-- Styling for Navbar starts here --*/
+
+        .navbar {
+            background: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+        }
+
+        .navbar ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 8px 12px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar ul li:hover {
+            border-bottom: 2px solid white;
+            color: black;
+            margin: 0 10px;
+            transition: 0.5s;
+        }
+
+    /*-- Styling for Navbar ends here --*/
+
+    /*-- Styling for trending heading starts here --*/
+
+        .trendapp {
+            background: black;
+            border-top: 2px solid black;
+            color: white;
+            margin-top: 20px;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+        }
+
+        .trap {
+            padding: 5px 30px;
+            border-top: 2px solid black;
+        }
+
+    /*-- Styling for trending heading ends here --*/
+
+    /*-- Styling for landing page trending apps section starts here --*/
+
+        h1 {
+            padding: 10px 0;
+        }
+
+        p {
+            padding: 10px 0;
+
+        }
+        .container1_1 {
+            display: flex;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid black;
+        }
+        .container1 {
+            padding: 10px 0;
+        }
+        .app1 {
+            padding: 0 10px;
+        }
+        .app2 {
+            padding: 0 10px;
+        }
+        .app3 {
+            padding: 0 10px;
+        }
+
+    /*-- Styling for landing page trending apps section ends here --*/
+
+    /*-- Styling for review section heading starts here --*/
+
+        .review {
+            background: black;
+            border-top: 2px solid black;
+            color: white;
+            margin-top: 20px;
+            text-align: center;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .view {
+            padding: 5px 30px;
+            border-top: 2px solid black;
+        }
+
+    /*-- Styling for review section heading ends here --*/
+
+    /*-- Styling for website footer starts here --*/
+
+        .container3 {
+            background: black;
+            display: block;
+            color: white;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+        }
+
+        .app5 {
+            display: block;
+            justify-content: center;
+            padding: 20px 50px;
+
+        }
+
+        .app5 p {
+            font-size: 15px;
+        }
+
+        .app5 h4 {
+            font-size: 15px;
+            background: white;
+            color: black;
+        }
+
+        .app5 a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .app5 a:hover {
+            transition: 0.5s;
+            color: white;
+            padding-left: 10px;
+        }
+
+    /*-- Styling for website footer end here --*/
 }
 
-.app5 h4 {
-    font-size: 15px;
-    background: white;
-    color: black;
+@media screen and (max-width: 768px){
+    .container1 {
+        display: block;
+    }
 }
 
-.app5 a {
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
+@media screen and (min-width: 576px) {
+    /*-- Styling for Navbar starts here --*/
+
+        .navbar {
+            background: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 75px;
+        }
+
+        .navbar ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 8px 12px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar ul li:hover {
+            border-bottom: 2px solid white;
+            color: black;
+            margin: 0 10px;
+            transition: 0.5s;
+        }
+
+    /*-- Styling for Navbar ends here --*/
+
+    /*-- Styling for trending heading starts here --*/
+
+        .trendapp {
+            border-top: 2px solid black;
+            color: white;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .trap {
+            background: black;
+            padding: 5px 30px;
+            border-top: 2px solid black;
+        }
+
+    /*-- Styling for trending heading ends here --*/
+
+    /*-- Styling for review section heading starts here --*/
+
+        .review {
+            border-top: 2px solid black;
+            color: white;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .view {
+            background: black;
+            padding: 5px 30px;
+            border-top: 2px solid black;
+        }
+
+    /*-- Styling for review section heading ends here --*/
+
+    /*-- Styling for website footer starts here --*/
+
+        .container3 {
+            background: black;
+            display: block;
+            color: white;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+        }
+
+        .app5 {
+            display: block;
+            justify-content: center;
+            padding: 20px 50px;
+
+        }
+
+        .app5 p {
+            font-size: 15px;
+        }
+
+        .app5 h4 {
+            font-size: 15px;
+            background: white;
+            color: black;
+        }
+
+        .app5 a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .app5 a:hover {
+            transition: 0.5s;
+            color: white;
+            padding-left: 10px;
+        }
+
+    /*-- Styling for website footer end here --*/
 }
 
-.app5 a:hover {
-    transition: 0.5s;
-    color: white;
-    padding-left: 10px;
+@media screen and (min-width: 768px){
+    .container1 {
+        display: flex;
+    }
+    .container1_1 {
+        padding: 10px 20px;
+        flex-basis: 30%;
+    }
+    .container1_2 {
+        padding: 10px 20px;
+        flex-basis: 70%;
+    }
 }
-
-/*-- Styling for website footer end here --*/
+/*-- Media Queries end here --*/
