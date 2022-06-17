@@ -175,9 +175,12 @@
     /*-- Styling for landing page reviews section starts here --*/
 
         .container2 {
-            display: flex;
-            margin-top: 20px;
+            margin: 20px 0;
             justify-content: space-between;
+            padding: 0 20px;
+        }
+        .container2 p {
+            display: none;
         }
 
     /*-- Styling for landing page reviews apps section ends here --*/
