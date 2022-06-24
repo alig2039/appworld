@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #C9FFE5;
+    background: white;
 }
 
 /*-- The Styling below this will affect screen sizes of a width below 576px --*/
@@ -82,7 +82,7 @@ body {
                 text-decoration: none;
             }
             h5 {
-                background: #C9FFE5;
+                background: white;
                 margin: 0 5px 10px 0;
                 color: black;
             }
@@ -313,7 +313,7 @@ body {
                 text-decoration: none;
             }
             h5 {
-                background: #C9FFE5;
+                background: white;
                 margin: 0 5px 10px 0;
                 color: black;
             }
