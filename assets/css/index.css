@@ -133,12 +133,42 @@ h2 {
             .app1 {
                 grid-area: a;
                 border-bottom: 1px solid black;
+                box-shadow: 0 5px 15px 0 rgba(0,0,0,0.7);
+                border-radius: 10px;
+                width: 95%;
+                margin: 0 auto;
             }
             .app2 {
                 grid-area: b;
+                border-bottom: 1px solid black;
+                box-shadow: 0 5px 15px 0 rgba(0,0,0,0.7);
+                border-radius: 10px;
+                width: 95%;
+                margin: 0 auto;
             }
             .app3 {
                 grid-area: c;
+                border-bottom: 1px solid black;
+                box-shadow: 0 5px 15px 0 rgba(0,0,0,0.7);
+                border-radius: 10px;
+                width: 95%;
+                margin: 0 auto;
+            }
+            .container1 h5 {
+                padding: 10px 10px 0 10px;
+                font-size: 12px;
+            }
+            .container1 h4 {
+                padding: 0 10px 0 10px;
+                font-size: 14px;
+            }
+            .container1 h2 {
+                padding: 10px 10px 0 10px;
+                font-size: 16px;
+            }
+            .container1 p {
+                padding: 0 10px 0 10px;
+                font-size: 13px;
             }
             .side {
                 display: grid;
@@ -146,6 +176,18 @@ h2 {
             }
             .side1, .side2, .side3, .side4 {
                 border-bottom: 1px solid black;
+            }
+            .side h2 {;
+                font-size: 13px;
+            }
+            .side h4 {
+                font-size: 13px;
+            }
+            .side h5 {
+                font-size: 12px;
+            }
+            .side p {
+                font-size: 20px;
             }
             .trendap {
                 margin: 20px 0 10px 0;
@@ -196,12 +238,15 @@ h2 {
             }
             .container2 h2 {
                 margin: 10px;
+                font-size: 16px;
             }
             .container2 h4 {
                 padding: 10px 10px 10px 10px;
+                font-size: 14px;
             }
             .container2 p {
                 padding: 10px 10px 10px 10px;
+                font-size: 12px;
             }
             /*-- Styling for the reviews section ends here --*/
 /*-- The Styling above this will affect screen sizes of a width below 576px --*/
@@ -363,21 +408,48 @@ h2 {
             }
             .app1 {
                 grid-area: a;
+                box-shadow: 0 5px 15px 0 rgba(0,0,0,0.7);
+                border-radius: 10px;
+                margin: 0 auto;
             }
             .app2 {
                 grid-area: b;
+                box-shadow: 0 5px 15px 0 rgba(0,0,0,0.7);
+                border-radius: 10px;
+                margin: 0 auto;
             }
             .app3 {
                 grid-area: c;
+                box-shadow: 0 5px 15px 0 rgba(0,0,0,0.7);
+                border-radius: 10px;
+                margin: 0 auto;
+            }
+            .container1 h2 {
+                padding: 10px 10px 0 10px;
+            }
+            .container1 h4 {
+                padding: 10px 10px 0 10px;
+            }
+            .container1 h5 {
+                padding: 10px 10px 0 10px;
+            }
+            .container1 p {
+                padding: 10px 10px 0 10px;
+            }
+            .side h2 {
+                 padding: 10px 10px 0 10px;
+            }
+            .side h4 {
+                padding: 10px 10px 0 10px;
+            }
+            .side h5 {
+                padding: 10px 10px 0 10px;
+            }
+            .side p {
+                padding: 10px 10px 10px 10px;
             }
             .side1, .side2, .side3, .side4 {
                 border-bottom: 1px solid black;
-            }
-            .con h4 {
-                margin: 10px 0 10px 0;
-            }
-            .con h2 {
-                padding: 10px 0 0 0;
             }
             .con a {
                 box-shadow: 0 5px 15px 0 rgba(0,0,0,0.7);
@@ -457,14 +529,16 @@ h2 {
         margin: 0 auto;
     }
     .container2 h2 {
-        margin: 10px;
+        padding: 10px 10px 0 10px;
     }
     .container2 h4 {
-        padding: 10px 10px 10px 10px;
+        padding: 10px 10px 0 10px;
+    }
+    .container2 h5 {
+        padding: 10px 10px 0 10px;
     }
     .container2 p {
         padding: 10px 10px 10px 10px;
-
     }
     /*-- Styling for the reviews section ends here --*/
 }
