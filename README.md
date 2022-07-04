@@ -30,3 +30,25 @@ This is a page in the website entiles a more detailed about us of the website pl
 All the pages shown in the navigation links are a sneak look at the different sections of the website. For a user to get a full detailed discription of a particular app, smartphone, or gear, they should click the picture of that particular article which is a link to that particular review.
 
 
+TECHNOLOGIES USED
+
+Languages Used
+
+- HTML
+- CSS
+
+TESTING
+
+- The site was tested through google chro and Edge browsers
+- Google developer tools have been used to check for sytanx errors and test page functionality on        different screen sizes.
+- The site was viewed on different devices such as desktop, laptop and smartphone screens.
+
+MEDIA
+
+- The images used were coppied/borrowd from gsmarena.com site. Hence they are only being used here for study purposes and I am not the original author of the images.
+
+CODE
+
+- All code was created by me taking a leaf from the insittute's study material and other available content.
+
+
