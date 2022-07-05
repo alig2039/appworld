@@ -1,6 +1,6 @@
 
 APPWORLD WEBSITE
-
+    
 The AppWorld website designed as a platform where users can get information about Android and Apple app, read reviews on a vast range of smartphones, and gear. 
 The website consists of 4 pages, including, the Home page, Apps page, Reviews page, and Gear page. The design flow idea of all the pages is similar except for the landing page in this case which is the home page. 
 
@@ -45,7 +45,7 @@ TESTING
 
 MEDIA
 
-- The images used were coppied/borrowd from gsmarena.com site. Hence they are only being used here for study purposes and I am not the original author of the images.
+- The images used were retrieved/coppied/borrowed from gsmarena.com site. Hence they are only being used here for study purposes and I am not the original author of the images.
 
 CODE
 
